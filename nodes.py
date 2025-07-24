@@ -436,9 +436,6 @@ class LatentSyncNode:
                 os.rename(comfyui_temp, backup_name)
             except:
                 pass
-        
-        check_and_install_dependencies()
-        setup_models()
 
     @classmethod
     def INPUT_TYPES(s):
